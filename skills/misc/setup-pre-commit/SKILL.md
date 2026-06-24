@@ -89,3 +89,4 @@ This will run through the new pre-commit hooks — a good smoke test that everyt
 - Husky v9+ doesn't need shebangs in hook files
 - `prettier --ignore-unknown` skips files Prettier can't parse (images, etc.)
 - The pre-commit runs lint-staged first (fast, staged-only), then full typecheck and tests
+
