@@ -19,6 +19,7 @@ step() {
   read -r -p "    [Enter when done] " _
 }
 
+# kept it simple here
 capture() {
   local var="$1" question="$2" answer
   printf '\n>>> %s\n' "$question"
